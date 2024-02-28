@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Scav-engeR/New_android_device_xiaomi_corot'
+        default: 'https://github.com/twrpdtgen/android_device_xiaomi_corot'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
