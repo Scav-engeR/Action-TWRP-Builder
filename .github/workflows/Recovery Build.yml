@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/twrpdtgen/android_device_xiaomi_corot'
+        default: 'https://github.com/Scav-engeR/android_device_xiaomi_corot-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -24,12 +24,12 @@ on:
         required: true
         default: 'device/xiaomi/corot'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: false
-      COMMON_PATH:
+        description: 'COMMON_TREE (if no common tree, leave blank'
+        required: true
+      COMMON_PATH: 'https://github.com/corot-scrapyard/android_device_xiaomi_corot-TWRP'
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: false
-      DEVICE_NAME:
+        required: true
+      DEVICE_NAME: 'device/xiaomi/corot'
         description: 'DEVICE_NAME'
         required: true
         default: 'corot'
